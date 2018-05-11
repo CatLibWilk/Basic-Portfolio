@@ -5,40 +5,49 @@
 
                 <title>Contact Information</title>
                 <link rel="stylesheet" href="assets/css/reset.css">
+                <link rel="stylesheet" href="assets/css/contactStyle.css">
                 <link rel="stylesheet" href="assets/css/style.css">
 
         </head>
 
         <body>
-            <div class="header">
-                <header>
-                    <h1>Andrew Wilk</h1>
-                    <h2>About</h2>
-                    <h2>Portfolio</h2>
-                    <h2>Contact</h2>
+            <div class="header clearfix">
+                <header class="clearfix">
+                    <!-- This is the top bar thats on every page -->
+                    <h1 class="navh1">Andrew Wilk</h1>
+                    <div class="right-side-nav">
+                        <h2 class="nav-h2">About</h2>
+                        <h2 class="nav-h2">Portfolio</h2>
+                        <h2 class="nav-h2-1">Contact</h2>
+                    </div>
                 </header>
             </div>
             <div>
-               <section class="contactBox">
-                   <h2>Contact</h2>
-                   <form class="contactForm">
+               <!-- <section class="clearfix contentArea"> -->
+               <section id="contactForm" class="clearfix contentArea">
+                   <h1 id="contentAreaHeading">Contact</h1>
+                   <form class="contactForm clearfix">
                         <label for="ContactName">Name</label>
                             <br>
                         <input type="text" id="ContactName" name="ContactName" placeholder="Your name..">
-                            <br>
+                            
                         <label for="ContactEmail">Email</label>
-                            <br>
+                        
                         <input type="text" id="ContactEmail" name="ContactEmail" placeholder="Your email address..">
-                            <br>
+                         
                         <label for="ContactMessage">Message</label>
-                            <br>
-                        <input type="text" id="ContactMessage" name="ContactMessage" placeholder="">
-                            <br>
+                        
+                        <input id="messageBox" type="text" id="ContactMessage" name="ContactMessage" placeholder="">
+                          
                             <input class="submitButton" type="submit" value="Submit">
                    </form>
 
                </section>
             </div>
+            <div class="footer">
+                <div id="greenBar"></div>
+            <footer>Copyright &copy;</footer>
+        </div>
         </body> 
 
     </html>

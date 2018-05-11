@@ -65,7 +65,7 @@
   .nav-h2-1{
     margin-right: 10px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     padding-left: 2px;
     color: #848484;
 }
@@ -87,12 +87,12 @@
       float: left;
   }
 
-  #aboutMe{
+  #contentAreaHeading{
       text-align: left;
       font-size: 24px;
       font-weight: bold;
       color: #4aaaa5;
-      padding: 20px 20px 30px 20px;
+      padding: 20px 20px 30px 0;
       margin: 20px;
     
       border-bottom-style: solid;
@@ -117,8 +117,9 @@
       width: 100%;
       background-color: #4aaaa5;
       height: 5px;
-      position: absolute;
+      position: fixed;
       bottom: 30px;
+      margin-bottom: 30px;
 
   }
 
@@ -130,7 +131,6 @@
     padding-top: 30px;
     background-color: grey;
     height: 60px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-
   }
